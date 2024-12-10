@@ -1,0 +1,7 @@
+<h1>User History</h1>
+<ul>
+    {{#each user.loginHistory}}
+        <li>{{this.dateTime}} - {{this.userAgent}}</li>
+    {{/each}}
+</ul>
+
