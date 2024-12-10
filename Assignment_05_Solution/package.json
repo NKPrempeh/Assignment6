@@ -1,26 +1,22 @@
 {
-  "name": "web322-app",
+  "name": "bti325-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "bti325",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "WEB322",
+  "author": "Stephanie Collins",
   "license": "ISC",
   "dependencies": {
-    "client-sessions": "^0.8.0",
-    "cloudinary": "^1.41.3",
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
-    "express-handlebars": "^6.0.7",
-    "handlebars": "^4.7.7",
-    "mongoose": "^8.8.4",
-    "multer": "^1.4.4",
-    "pg": "^8.7.3",
+    "cloudinary": "^2.5.1",
+    "express": "^4.21.0",
+    "express-handlebars": "^8.0.1",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.13.1",
     "pg-hstore": "^2.3.4",
-    "sequelize": "^6.17.0",
+    "sequelize": "^6.37.5",
     "streamifier": "^0.1.1",
     "strip-js": "^1.2.0"
   }
